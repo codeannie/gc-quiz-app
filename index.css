@@ -1,0 +1,71 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  width: 600px;
+}
+
+a:hover {
+  color: green;
+}
+
+h1 {
+    background-color: #e4e4e4;
+    color: #2E456D;
+    margin-bottom: 20px;
+    text-align:left;
+    padding-left: 10px;
+}
+
+.footer-text {
+  background-color: #e4e4e4;
+  text-align: center;
+}
+
+p, h1, h2, h3, .feedback-text {
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+
+.start-button, .ok-button, .retake-button, button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2E456D;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.start-button:hover, .ok-button:hover, .retake-button:hover, button[type="submit"]:hover {
+  background-color: #15CD72; 
+}
+
+.footer-text {
+  margin-top: 20px;
+  font-size: 12px;
+  padding: 2px;
+}
+
+fieldset {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.question {
+  padding: 20px;
+  color: #2E456D;
+  text-align: center;
+}
+
+.choice-list {
+  margin: auto;
+  padding: 20px;
+}

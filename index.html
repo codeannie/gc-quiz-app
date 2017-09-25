@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Gracie Combatives Quiz</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Gracie Combatives - Technique Quiz</h1>
+      </header>
+    
+    <main role="main">
+      
+    <!--start page-->
+    
+    <div class="start-page">
+   
+    <h2>In a fight, whoever manages the distance manages the damage.</h2>
+    <p>Select the appropriate Gracie Combatives technique based on the Bad Guy indicator. </p>
+    <!--<p>Click to begin!</p>-->
+    <button type="button" class="start-button">START</button>
+     
+      </div>
+    </main>
+    
+    <!--question page-->
+    <div class="question-page" hidden>
+    <form id="question-form">
+      <fieldset>
+        <legend class="question"><span class="progress">1/10</span> : <span class="scenario"></span>, what technique would you execute?</legend>
+       
+        <div class="choice-list">
+       </div>
+       
+      <!--<button type="previousQ">Back</button>-->
+      
+     </fieldset> 
+     <button type="submit">Submit</button>
+     </form>
+    </div>
+    
+    <!--feedback page-->
+    <div class="feedback-page" hidden>
+    <h2>Managing the distance means managing the damage!</h2>
+      <p class="feedback-text">
+        <span class="feedback-correctness"></span>
+        <span class="feedback-info"></span>
+        </p>
+      <button type="button" class="ok-button">OK</button>
+    </div>
+    
+    <!--summary page-->
+    
+    <div class="summary-page" hidden>
+    <h3>You got <span class="total-correct"></span> out of <span class="number-questions"></span>.</h3>
+    <button type="button" class="retake-button">Take Quiz Again</button>
+    </div>
+    
+    <footer role="contentinfo">
+      <p class="footer-text">Review Gracie Combatives at <a href="https://www.gracieuniversity.com">Gracie University</a>!</p>
+      </footer>
+    
+        <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
